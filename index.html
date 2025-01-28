@@ -8,11 +8,11 @@
     <style>
         body{
             background-color: black;
-            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
         }
         /* Container styles */
         .scrolling-text-container {
-            background-color: #eff5ff;
+            background-color: white;
             border-radius: 4px;
             overflow: hidden;
         }
@@ -21,7 +21,7 @@
         .scrolling-text-inner {
             display: flex;
             white-space: nowrap;
-            font-size: 16px;
+            font-size: 32px;
             font-weight: 600;
             padding: 8px 0;
         }
@@ -45,6 +45,7 @@
             animation-play-state: paused;
         }
 
+
         /* Setting the Animation using Keyframes */
         @keyframes scroll-left {
             0% {
@@ -55,41 +56,102 @@
             }
         }
 
+        .scrolling-text-container2 {
+            background-color: black;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .scrolling-text-container2:hover .scrolling-text-inner2 > div {
+            animation-play-state: paused;
+        }
+
+        .scrolling-text-inner2 {
+            display: flex;
+            white-space: nowrap;
+            font-size: 72px;
+            font-weight: 600;
+            font-weight: bolder;
+            padding: 8px 0;
+        }
+        .scrolling-text-inner2 > div {
+            animation: var(--direction) var(--marquee-speed) linear infinite;
+        }
+
     </style>
 </head>
 
 
 <body style="margin: 0;">
     <div class="header" style="background: black;">
-        
-        <div class="scrolling-text-container">
-            <div class="scrolling-text-inner" style="--marquee-speed: 20s; --direction:scroll-left" role="marquee">
-                <div class="scrolling-text">
-                    <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
-                    <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+        <div class="scrolling-text-container2">
+            <div class="scrolling-text-inner2" style="--marquee-speed: 60s; --direction:scroll-left" role="marquee">
+                <div class="scrolling-text" style="color:white">
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
                 </div>
-                <div class="scrolling-text">
-                    <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
-                    <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text" style="color: white;">
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
+                    <div class="scrolling-text-item">DULCE GARCIA</div>
+                    <div class="scrolling-text-item">CORAL GABLES REALTY</div>
                 </div>
             </div>
         </div>
 
-
-
-
-
-
-        <marquee>
-            <h1 style="margin: 0.5%; color:ghostwhite;text-align:left;padding-left: 0%;font-size: 48px;"><b>Dulce Garcia Coral Gables Realty - </b></h1>
-        </marquee>
-    </div>
     <img src="gables_photo_1.jpg" alt="Coral Gables Skyline" style="display: block;margin-left: auto;margin-right: auto;width: 100%;height: 800px;">
-    <div class="contactinfo" style="background: ghostwhite;">
-        <h1 style="color: black;text-align: center;padding-top: 1%;"><b>Contact Us:</b></h1>
-        <h2 style="color: black;text-align: center;">phone number</h2>
-        <h2 style="color: black;text-align: center;padding-bottom: 1%;">email</h2>
+    
+    
+    
+    
+    
+    <div class="contactinfo" style="background: black;padding-bottom: 0%;">
+        <h1 style="color: white;text-align: center;padding-top: 0%;font-size: 60px;"><b>CONTACT INFORMATION:     phone #     email</b></h1>
+        <h2 style="color: white;text-align: center;">phone number</h2>
+        <h2 style="color: white;text-align: center;padding-bottom: 1%;">email</h2>
 
+    </div>
+
+    <div class="scrolling-text-container" >
+        <div class="scrolling-text-inner" style="--marquee-speed: 40s; --direction:scroll-left" role="marquee">
+            <div class="scrolling-text">
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+            </div>
+            <div class="scrolling-text">
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+                <div class="scrolling-text-item">WE LOVE DULCE GARCIA</div>
+                <div class="scrolling-text-item">BEST REAL ESTATE IN THE GABLES</div>
+            </div>
+        </div>
     </div>
     <div class="scroll-container" style="overflow:auto">
         <img src="gables_photo_1.jpg" alt="Cinque Terre" width="600" height="400">
